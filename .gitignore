@@ -1,0 +1,37 @@
+# MLflow
+mlflow.db
+mlruns/
+mlartifacts/
+
+# Models
+models/*.joblib
+models/*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+env/
+venv/
+.venv/
+env_delta/
+
+# Logs
+logs/
+*.log
+
+# Databases
+*.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+/data
+/models
