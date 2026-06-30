@@ -1,11 +1,11 @@
 # 🏥 Healthcare AI System
-![Python](https://img.shields.io/badge/python-3.10+-3776AB)
-![FastAPI](https://img.shields.io/badge/FastAPI-API-009688)
-![Docker](https://img.shields.io/badge/Docker-Container-2496ED)
-![AWS](https://img.shields.io/badge/AWS-Cloud-FF9900)
-![MLflow](https://img.shields.io/badge/MLflow-Tracking-1F77B4)
-![DVC](https://img.shields.io/badge/DVC-Pipeline-9457EB)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2E7D32)
+![Python](https://img.shields.io/badge/python-3.10+-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-green)
+![Docker](https://img.shields.io/badge/Docker-Container-blue)
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
+![MLflow](https://img.shields.io/badge/MLflow-Tracking-yellow)
+![DVC](https://img.shields.io/badge/DVC-Pipeline-brightgreen)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-purple)
 
 An end-to-end enterprise ML system built on real hospital data — from raw CSVs to AWS Kubernetes deployment, with full MLOps tooling, monitoring, and governance.
 - Data Engineering (SQL + Feature Pipeline)
