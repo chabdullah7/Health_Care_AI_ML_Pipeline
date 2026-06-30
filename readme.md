@@ -196,6 +196,18 @@ Healthcare/
 
 ---
 
+## 🔍 Key Highlights (What made the difference)
+
+- Data quality improvements significantly boosted model performance  
+- Time-based splitting used to prevent data leakage  
+- Class imbalance handled using SMOTE and class weighting  
+- Overfitting analyzed through train vs test performance gap  
+- Fairness evaluated across gender, city, and insurance groups  
+- Production-grade API built with logging and input validation  
+- Drift detection implemented using PSI for monitoring
+
+---
+
 ## 📊 Model Performance
 
 | Model | Algorithm | Test Accuracy | Weighted F1 |
@@ -207,18 +219,6 @@ Healthcare/
 | Claim Outcome | Random Forest | ~55% | 0.51 |
 
 > ⚠️ Key insight: Data quality improvement had more impact than model tuning.
-
----
-
-## 🔍 Key Highlights
-
-- Data quality improvement → major performance jump
-- Time-based split avoids leakage
-- Class imbalance handling (SMOTE, weights)
-- Overfitting analysis (train vs test gap)
-- Fairness checks across demographics
-- Production-ready API with logging + validation
-- Drift detection using PSI
 
 ---
 
