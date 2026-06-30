@@ -7,8 +7,26 @@
 ![DVC](https://img.shields.io/badge/DVC-Pipeline-purple)
 
 An end-to-end enterprise ML system built on real hospital data — from raw CSVs to AWS Kubernetes deployment, with full MLOps tooling, monitoring, and governance.
+- Data Engineering (SQL + Feature Pipeline)
+- Machine Learning (Classification Models)
+- MLOps (MLflow + DVC + Versioning)
+- Model Serving (FastAPI + Gradio)
+- Cloud Deployment (Docker + AWS ECR + EKS)
+- CI/CD Automation (GitHub Actions)
+- Monitoring (Drift detection with PSI)
+## 📊 Business Impact
 
-This project includes MLflow, DVC pipelines, AWS ECR image creation, AWS CLI configuration, remote DVC storage, EKS deployment, Kubernetes orchestration, and CI/CD automation.
+### 🏥 Healthcare Operations
+- Early identification of high-risk patients
+- Better ICU / ER resource allocation
+
+### 💰 Financial Optimization
+- Predict claim rejection before submission
+- Reduce revenue leakage
+
+### ⚡ System Efficiency
+- Automated ML pipeline reduces manual retraining
+- Real-time API inference for hospital systems
 
 ![Capstone Architecture](images/capstone_architecture.png)
 
