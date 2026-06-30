@@ -5,6 +5,7 @@
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
 ![MLflow](https://img.shields.io/badge/MLflow-Tracking-red)
 ![DVC](https://img.shields.io/badge/DVC-Pipeline-purple)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-black)
 
 An end-to-end enterprise ML system built on real hospital data — from raw CSVs to AWS Kubernetes deployment, with full MLOps tooling, monitoring, and governance.
 - Data Engineering (SQL + Feature Pipeline)
