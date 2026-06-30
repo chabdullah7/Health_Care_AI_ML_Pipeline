@@ -29,7 +29,9 @@ This project includes MLflow, DVC pipelines, AWS ECR image creation, AWS CLI con
 
 ---
 
-🏗️ System Architecture
+## 🏗️ System Architecture
+
+```
 Raw Hospital Data
 (patients.csv · visits.csv · billing.csv)
         │
@@ -71,50 +73,57 @@ Cloud Deployment
         ▼
 Retrain Feedback Loop
 (drift → DVC repro → new model version)
-📁 Project Structure
+```
+
+---
+
+## 📁 Project Structure
+
+```
 Healthcare/
 ├── data/
 ├── db/
-│ └── hospital.db
+│   └── hospital.db
 ├── notebooks/
 ├── src/
-│ ├── training_pipeline.py
-│ ├── feature_engineering.py
-│ └── model_training/
+│   ├── training_pipeline.py
+│   ├── feature_engineering.py
+│   └── model_training/
 ├── api/
-│ ├── main.py
-│ ├── routers/
-│ ├── schemas/
-│ └── services/
+│   ├── main.py
+│   ├── routers/
+│   ├── schemas/
+│   └── services/
 ├── ui/
-│ └── gradio_app.py
+│   └── gradio_app.py
 ├── monitoring/
-│ ├── psi_monitor.py
-│ └── logger.py
+│   ├── psi_monitor.py
+│   └── logger.py
 ├── models/
-│ ├── risk_model.joblib
-│ └── claim_model.joblib
+│   ├── risk_model.joblib
+│   └── claim_model.joblib
 ├── outputs/
-│ ├── model_table.csv
-│ └── feature_schema.json
+│   ├── model_table.csv
+│   └── feature_schema.json
 ├── mlruns/
 ├── mlartifacts/
 ├── mlflow.db
 ├── logs/
-│ └── predictions.log
+│   └── predictions.log
 ├── dvc-storage/
 ├── dvc.yaml
 ├── dvc.lock
 ├── report/
-│ ├── model_card.md
-│ └── monitoring_strategy.md
+│   ├── model_card.md
+│   └── monitoring_strategy.md
 ├── tests/
 ├── Dockerfile
 ├── docker-compose.yml
 ├── .github/workflows/
-│ └── ci_cd.yml
+│   └── ci_cd.yml
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
