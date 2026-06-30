@@ -14,19 +14,8 @@ An end-to-end enterprise ML system built on real hospital data — from raw CSVs
 - Cloud Deployment (Docker + AWS ECR + EKS)
 - CI/CD Automation (GitHub Actions)
 - Monitoring (Drift detection with PSI)
-## 📊 Business Impact
 
-### 🏥 Healthcare Operations
-- Early identification of high-risk patients
-- Better ICU / ER resource allocation
-
-### 💰 Financial Optimization
-- Predict claim rejection before submission
-- Reduce revenue leakage
-
-### ⚡ System Efficiency
-- Automated ML pipeline reduces manual retraining
-- Real-time API inference for hospital systems
+---
 
 ![Capstone Architecture](images/capstone_architecture.png)
 
@@ -44,6 +33,22 @@ An end-to-end enterprise ML system built on real hospital data — from raw CSVs
 |---|---|---|---|
 | **Visit Risk Classifier** | Patient + Visit data | Low / Medium / High risk | Helps hospital ops teams triage and allocate staff proactively |
 | **Claim Outcome Predictor** | Billing + Visit data | Paid / Pending / Rejected | Helps finance teams detect rejection-prone claims before submission |
+
+---
+
+## 📊 Business Impact
+
+### 🏥 Healthcare Operations
+- Early identification of high-risk patients
+- Better ICU / ER resource allocation
+
+### 💰 Financial Optimization
+- Predict claim rejection before submission
+- Reduce revenue leakage
+
+### ⚡ System Efficiency
+- Automated ML pipeline reduces manual retraining
+- Real-time API inference for hospital systems
 
 ---
 
@@ -142,9 +147,6 @@ Healthcare/
 ├── requirements.txt
 └── README.md
 ```
-
----
-
 
 ---
 
