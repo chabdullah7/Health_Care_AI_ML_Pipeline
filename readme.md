@@ -197,6 +197,3 @@ Healthcare/
 **Abdullah**  
 AI/ML Engineer  
 www.linkedin.com/in/chabdullah7
-
-📄 License
-This project is for educational purposes as part of the Udemy course "AI System Design & MLOps: From Raw Data to AWS Kubernetes"
