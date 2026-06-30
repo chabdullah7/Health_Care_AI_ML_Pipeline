@@ -4,7 +4,7 @@
 
 An end-to-end enterprise ML system built on real hospital data — from raw CSVs to AWS Kubernetes deployment, with full MLOps tooling, monitoring, and governance.
 
-[![Udemy Coupon](https://img.shields.io/badge/Udemy-RAHUL90OFF-green)](https://www.udemy.com/course/ai-system-design-mlops-from-raw-data-to-aws-kubernetes/?couponCode=2C53F66AED641DA982D2)
+
 
 
 ![Capstone Architecture](images/capstone_architecture.png)
@@ -440,15 +440,3 @@ Udemy Instructor · 47K+ Students
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rahul_Sahay-blue)](https://linkedin.com/in/rahulsahay19)
 [![Udemy](https://img.shields.io/badge/Udemy-Courses-orange)](https://www.udemy.com/user/rahulsahay-2)
-
-🔗 Full course & architecture guide:
-https://rahulsahay.com
-
-> *Production First Architecture. Not Slideware.* — **#ArchitectMindset**
-
----
-
-## 📄 License
-
-This project is for educational purposes as part of the Udemy course
-**"AI System Design & MLOps: From Raw Data to AWS Kubernetes"**
