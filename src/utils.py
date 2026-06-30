@@ -24,7 +24,12 @@ def load_model_table() -> pd.DataFrame:
     if not os.path.exists(model_table_path):
         raise FileNotFoundError(f"model_table.csv not found at: {model_table_path}")
 
-    return pd.read_csv(model_table_path)
+    return pd.read_csv(
+    model_table_path,
+    low_memory=False,
+    on_bad_lines="skip",
+    encoding="utf-8"
+)
 
 
 # This function performs a time-based split of the dataframe into training and testing sets based on the specified sort column and split ratio.

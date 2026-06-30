@@ -1,6 +1,6 @@
 # Data & ML
-pandas
 numpy
+pandas
 scikit-learn
 xgboost
 imbalanced-learn
@@ -24,25 +24,21 @@ pydantic
 # Monitoring
 evidently
 
+# UI
+gradio
+
+# Utilities
+python-dotenv
+requests
+
+# Visualization
+matplotlib
+seaborn
+
 # Notebook
 jupyter
 ipykernel
 
-# Visualisation
-matplotlib
-seaborn
-
 # Testing
-pytest
-httpx
-
-# UI 
-gradio
-requests
-
-# Utilities
-python-dotenv
-
-# test
 pytest
 httpx
