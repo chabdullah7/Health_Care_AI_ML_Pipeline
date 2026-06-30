@@ -2,9 +2,11 @@ name: CI Pipeline
 
 on:
   push:
-    branches: ["**"]
+    branches:
+      - "**"
   pull_request:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   test:
@@ -36,27 +38,28 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: eu-north-1
 
-      - name: Debug AWS access
+      - name: Debug AWS Access
         run: |
           echo "AWS_REGION=$AWS_REGION"
           echo "AWS_DEFAULT_REGION=$AWS_DEFAULT_REGION"
           aws configure list
           aws sts get-caller-identity
-          aws s3 ls s3://amzn-s3-healthcare
-          aws s3 ls s3://amzn-s3-healthcare/dvc-store/ --recursive | head
+          aws s3 ls
+          aws s3 ls s3://amzn-s3-healthcare-77
+          aws s3 ls s3://amzn-s3-healthcare-77/dvc-store/ --recursive | head
 
-      - name: Pull DVC artifacts
+      - name: Pull DVC Artifacts
         run: |
           dvc pull -v
 
-      - name: Run API tests
+      - name: Run API Tests
         run: |
           python -m pytest tests/test_routes.py -v
 
-      - name: Run feature schema tests
+      - name: Run Feature Schema Tests
         run: |
           python -m pytest tests/test_schema.py -v
 
-      - name: Run model artifact tests
+      - name: Run Model Artifact Tests
         run: |
           python -m pytest tests/test_artifacts.py -v
