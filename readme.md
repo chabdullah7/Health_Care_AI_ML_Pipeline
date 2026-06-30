@@ -210,7 +210,7 @@ Healthcare/
 
 ---
 
-## 🔍 Key Points
+## 🔍 Key Highlights
 
 - Data quality improvement → major performance jump
 - Time-based split avoids leakage
