@@ -1,6 +1,4 @@
 # 🏥 Healthcare AI System
-# 🏥 Healthcare AI System
-# 🏥 Healthcare AI System
 ![Python](https://img.shields.io/badge/python-3.10+-3776AB)
 ![FastAPI](https://img.shields.io/badge/FastAPI-API-009688)
 ![Docker](https://img.shields.io/badge/Docker-Container-2496ED)
