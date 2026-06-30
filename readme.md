@@ -73,62 +73,46 @@ Retrain Feedback Loop
 (drift → DVC repro → new model version)
 📁 Project Structure
 Healthcare/
-├── data/                    # Raw CSV data (source layer)
-│
-├── db/                      # SQLite DB (analytics layer)
-│   └── hospital.db
-│
-├── notebooks/               # Phase-wise EDA + modeling
-│
-├── src/                     # Training pipeline (core ML logic)
-│   ├── training_pipeline.py
-│   ├── feature_engineering.py
-│   └── model_training/
-│
-├── api/                     # FastAPI serving layer
-│   ├── main.py
-│   ├── routers/             # /predict endpoints
-│   ├── schemas/             # Pydantic validation
-│   └── services/            # Model loading (joblib)
-│
-├── ui/                      # Gradio UI (browser demo)
-│   └── gradio_app.py
-│
-├── monitoring/              # Drift detection + logging
-│   ├── psi_monitor.py
-│   └── logger.py
-│
-├── models/                  # Final production models
-│   ├── risk_model.joblib
-│   ├── claim_model.joblib
-│
-├── outputs/                 # Generated datasets
-│   ├── model_table.csv
-│   └── feature_schema.json
-│
-├── mlruns/                  # MLflow experiment tracking
-├── mlartifacts/             # MLflow artifacts
-├── mlflow.db                # MLflow backend DB
-│
-├── logs/                    # Prediction logs (audit trail)
-│   └── predictions.log
-│
-├── dvc-storage/             # DVC remote storage (local/S3)
-├── dvc.yaml                 # DVC pipeline definition
+├── data/
+├── db/
+│ └── hospital.db
+├── notebooks/
+├── src/
+│ ├── training_pipeline.py
+│ ├── feature_engineering.py
+│ └── model_training/
+├── api/
+│ ├── main.py
+│ ├── routers/
+│ ├── schemas/
+│ └── services/
+├── ui/
+│ └── gradio_app.py
+├── monitoring/
+│ ├── psi_monitor.py
+│ └── logger.py
+├── models/
+│ ├── risk_model.joblib
+│ └── claim_model.joblib
+├── outputs/
+│ ├── model_table.csv
+│ └── feature_schema.json
+├── mlruns/
+├── mlartifacts/
+├── mlflow.db
+├── logs/
+│ └── predictions.log
+├── dvc-storage/
+├── dvc.yaml
 ├── dvc.lock
-│
-├── report/                  # Governance docs
-│   ├── model_card.md
-│   └── monitoring_strategy.md
-│
-├── tests/                   # Unit + API tests
-│
-├── Dockerfile               # FastAPI container
-├── docker-compose.yml       # Local multi-service setup
-│
-├── .github/workflows/       # CI/CD pipelines
-│   └── ci_cd.yml
-│
+├── report/
+│ ├── model_card.md
+│ └── monitoring_strategy.md
+├── tests/
+├── Dockerfile
+├── docker-compose.yml
+├── .github/workflows/
+│ └── ci_cd.yml
 ├── requirements.txt
 └── README.md
 
